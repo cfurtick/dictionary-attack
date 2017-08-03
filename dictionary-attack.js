@@ -16,12 +16,15 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword() {
+  
+  document.getElementById("pw").innerHTML;
+  
   for (x = 0, x < wordList.length, x++){
     if pw == wordList[x] {
-      return "weak password"
+      return "weak password";
     }
     else {
-      return "good password"
+      return "good password";
     }
   }
 
