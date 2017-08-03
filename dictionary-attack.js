@@ -19,7 +19,7 @@ function checkPassword() {
   
   var password = document.getElementById("btnSubmit").innerHTML;
   
-  for (var x = 0, x < wordsList.length, x++){
+  for (var x = 0; x < wordsList.length; x++){
     if password == wordsList[x] {
       return document.getElementById("results").innerHTML = "weak password";
     }
