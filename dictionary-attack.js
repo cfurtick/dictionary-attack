@@ -21,10 +21,10 @@ function checkPassword() {
   
   for (var x = 0; x < wordsList.length; x++){
     if password == wordsList[x] {
-      return document.getElementById("results").innerHTML = "weak password";
+      document.getElementById("results").innerHTML = "weak password";
     }
     else {
-      return document.getElementById("results").innerHTML = "good password";
+      document.getElementById("results").innerHTML = "good password";
     }
   }
 
