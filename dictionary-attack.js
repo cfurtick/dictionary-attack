@@ -19,8 +19,8 @@ function checkPassword() {
   
   var password = document.getElementById("pw").innerHTML;
   
-  for (var x = 0, x < wordList.length, x++){
-    if password == wordList[x] {
+  for (var x = 0, x < wordsList.length, x++){
+    if password == wordsList[x] {
       return document.getElementById("results").innerHTML = "weak password";
     }
     else {
