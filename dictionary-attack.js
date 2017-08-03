@@ -16,5 +16,10 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword() {
+  for (x=0, x<wordList.length, x++){
+    if pw == wordList[x] {
+      return "weak password!"
+    }
+  }
 
 }
