@@ -18,13 +18,9 @@ window.onload = init;
 function checkPassword() {
   var password = document.getElementById("pw").value; 
   for (var x = 0; x < wordsList.length; x++){
-    if password == wordsList[x] {
+    if (password == wordsList[x]) {
       document.getElementById("results").innerHTML = "weak password";
       break;
     }
-    else {
-      document.getElementById("results").innerHTML = "good password";
-    }
   }
-
 }
