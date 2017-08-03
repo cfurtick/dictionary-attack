@@ -17,10 +17,10 @@ window.onload = init;
 
 function checkPassword() {
   
-  document.getElementById("pw").innerHTML;
+  var password = document.getElementById("pw").innerHTML;
   
-  for (x = 0, x < wordList.length, x++){
-    if pw == wordList[x] {
+  for (var x = 0, x < wordList.length, x++){
+    if password == wordList[x] {
       return "weak password";
     }
     else {
