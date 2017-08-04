@@ -20,11 +20,10 @@ function checkPassword() {
   for (var x = 0; x < wordsList.length; x++){
     if (password == wordsList[x]) {
       document.getElementById("results").innerHTML = "weak password";
-      password = "";
       setTimeout(function(){
-         document.getElementById("results").innerHTML="";
-         document.getElementById("pw").innerHTML= password;
-         },3000);
+         document.getElementById("results").innerHTML = "";
+         },2000);
+      document.getElementById("pw").innerHTML = "";
       break;
     }
   }
