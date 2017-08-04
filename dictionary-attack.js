@@ -28,6 +28,6 @@ function checkPassword() {
   }
 }
 
-function clearBar() {
-  return document.getElementById("pw").value = "";
-}
+//function clearBar() {
+  
+//}
