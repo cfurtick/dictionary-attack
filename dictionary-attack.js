@@ -28,6 +28,7 @@ function checkPassword() {
   }
 }
 
-//function clearBar() {
+function clearBar() {
+  document.getElementById("pw").value = '';
   
-//}
+}
