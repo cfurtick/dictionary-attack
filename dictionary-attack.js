@@ -22,6 +22,7 @@ function checkPassword() {
       document.getElementById("results").innerHTML = "weak password";
       setTimeout(function(){
          document.getElementById("results").innerHTML="";
+         document.getElementById("pw").innerHTML="";
          },3000);
       break;
     }
