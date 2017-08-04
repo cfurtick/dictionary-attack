@@ -29,6 +29,5 @@ function checkPassword() {
 }
 
 function clearBar() {
-  var password = document.getElementById("pw");
-  password.reset();
+  return document.getElementById("pw").value = "";
 }
