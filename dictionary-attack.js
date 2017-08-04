@@ -23,8 +23,7 @@ function checkPassword() {
       setTimeout(function(){
          document.getElementById("results").innerHTML = "";
          },2000);
-      password = "";
-      document.getElementById("pw").innerHTML = password;
+      password.reset();
       break;
     }
   }
